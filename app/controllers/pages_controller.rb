@@ -1,7 +1,7 @@
 
 class PagesController < ApplicationController
-  def index
-  
-  end
+  caches_page :index
 
+  def index
+  end
 end
