@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'slim'
 gem 'newrelic_rpm'
 
+gem 'rails_appcache'
+
 gem 'actionpack-page_caching'
 gem 'rack-zippy'
 
