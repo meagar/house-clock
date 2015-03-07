@@ -15,9 +15,7 @@ $ ->
     diff = endDate.subtract('days', days).diff(now, 'milliseconds', true)
     hours = Math.floor(moment.duration(diff).asHours())
 
-    console.log(diff, endDate.toDate())
     diff = endDate.subtract('hours', hours).diff(now, 'milliseconds', true)
-    console.log(diff, endDate.toDate())
     minutes = Math.floor(moment.duration(diff).asMinutes())
 
     diff = endDate.subtract('minutes', minutes).diff(now, 'milliseconds', true)
