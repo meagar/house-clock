@@ -30,4 +30,6 @@ module HouseClock
     config.action_controller.page_cache_directory = "#{Rails.root.to_s}/public"
     config.middleware.swap(ActionDispatch::Static, Rack::Zippy::AssetServer)
   end
+
+  RailsAppcache.config/version = '1.1'
 end
