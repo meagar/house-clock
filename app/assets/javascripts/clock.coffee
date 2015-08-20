@@ -1,6 +1,6 @@
 
 $ ->
-  target = moment(year: 2015, month: 4, day: 25, hour: 0, minute: 0, second: 0)
+  target = moment(year: 2015, month: 11, day: 5, hour: 0, minute: 0, second: 0)
 
   updateClock = ->
     endDate = target.clone()

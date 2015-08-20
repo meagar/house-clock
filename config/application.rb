@@ -31,5 +31,5 @@ module HouseClock
     config.middleware.swap(ActionDispatch::Static, Rack::Zippy::AssetServer)
   end
 
-  RailsAppcache.config/version = '1.1'
+  RailsAppcache.config.version = '1.1'
 end
