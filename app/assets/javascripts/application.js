@@ -11,4 +11,5 @@
 // about supported directives.
 //
 //= require moment.min
+//= require boostrap.min
 //= require_tree .
